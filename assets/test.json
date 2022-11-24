@@ -1,0 +1,50 @@
+{
+	"id": "10935",
+	"LayersArray":
+		[
+			{ "Id": "1", "ParentId": "0", "Name": "Standard Wallboard Plasterboard", "Lambda": "0.21", "DepthMM": "10.5", "MaterialType": "Other", "3dObjectSrc": "", "SkinSrc": "", "Opacity": "1" },
+			{ "Id": "2", "ParentId": "0", "Name": "Polyethylene 0.15mm", "Lambda": "0.17", "DepthMM": "0.2", "MaterialType": "Other", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "3", "ParentId": "0", "Name": "Steel Stud", "Lambda": "0.21", "DepthMM": "12.5", "MaterialType": "Substrate", "3dObjectSrc": "", "SkinSrc": "need to discuss further", "Opacity": 1 },
+			{ "Id": "4", "ParentId": "3", "Name": "Rockwool Flexi", "Lambda": "0.035", "DepthMM": "140", "MaterialType": "Insulation", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "5", "ParentId": "3", "Name": "Unventilated air flow, horiz heat", "Lambda": "0.001", "DepthMM": "10", "MaterialType": "Air", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "6", "ParentId": "0", "Name": "Cement Particle Board", "Lambda": "0.230", "DepthMM": "12", "MaterialType": "Other", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "7", "ParentId": "0", "Name": "Breather membrane", "Lambda": "0.17", "DepthMM": "0.1", "MaterialType": "Other", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "8", "ParentId": "0", "Name": "Kingspan K-Roc Rainscreen Slab", "Lambda": "0.034", "DepthMM": "100", "MaterialType": "Insulation", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "9", "ParentId": "0", "Name": "Airspace 56mm", "Lambda": "0.002", "DepthMM": "56", "MaterialType": "Air", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 },
+			{ "Id": "10", "ParentId": "0", "Name": "Rainscreen Cladding", "Lambda": "0", "DepthMM": "8", "MaterialType": "Other", "3dObjectSrc": "", "SkinSrc": "", "Opacity": 1 }
+		],
+	"StageAreaConfiguration":
+		[
+			{ "Id": "1", "WallAreaHorizontalM": "3", "WallAreaVerticalM": "3", "LeftEdgeRotateDegreesRight": "35", "TopEdgeRotateDegrees": "0"}
+		],
+	"BracketsArray":
+		[
+			{ "Id": "1", "ParentLayerId": "7", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "0.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 D-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "2", "ParentLayerId": "7", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "0.7", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "3", "ParentLayerId": "7", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "1.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "4", "ParentLayerId": "7", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "1.9", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "5", "ParentLayerId": "7", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "2.5", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "6", "ParentLayerId": "7", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "0.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 D-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "7", "ParentLayerId": "7", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "0.7", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "8", "ParentLayerId": "7", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "1.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "9", "ParentLayerId": "7", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "1.9", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "10", "ParentLayerId": "7", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "2.5", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "11", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "0.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 D-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "12", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "0.7", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "13", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "1.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "14", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "1.9", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "15", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "2.5", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "16", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "0.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 D-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "17", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "0.7", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "18", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "1.3", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "19", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "1.9", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "20", "ParentLayerId": "7", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "2.5", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "0", "Opacity": "0", "3dObjectSrc": "Nvelope - 60mm 11 S-1.STL", "Orientation": "Vertical", "RotateDegrees": "0"}
+		],
+	"RailsArray":
+		[
+			{ "Id": "1", "ParentLayerId": "7", "RailLengthM": "3", "LeftEdgeDistanceM": "0.3", "TopEdgeDistanceM": "0", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "50", "Opacity": "0", "3dObjectSrc": "Lprofile.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "2", "ParentLayerId": "7", "RailLengthM": "3", "LeftEdgeDistanceM": "1.5", "TopEdgeDistanceM": "0", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "50", "Opacity": "0", "3dObjectSrc": "Lprofile.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "3", "ParentLayerId": "7", "RailLengthM": "3", "LeftEdgeDistanceM": "2.1", "TopEdgeDistanceM": "0", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "50", "Opacity": "0", "3dObjectSrc": "Lprofile.STL", "Orientation": "Vertical", "RotateDegrees": "0"},
+			{ "Id": "4", "ParentLayerId": "7", "RailLengthM": "3", "LeftEdgeDistanceM": "2.7", "TopEdgeDistanceM": "0", "OffsetX": "0", "OffsetY": "0", "OffsetZ": "50", "Opacity": "0", "3dObjectSrc": "Lprofile.STL", "Orientation": "Vertical", "RotateDegrees": "0"}
+		]
+}
